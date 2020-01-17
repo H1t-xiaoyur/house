@@ -1,0 +1,63 @@
+.map{
+    height: 100%;
+    background-color: #fff;
+    .header{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background-color: #f4f4f4;
+        h3{
+            text-align: center;
+            margin-left: 30%;
+        }
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+.map_top{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #f4f4f4;
+}
+.map_main{
+    height: 100%;
+}
+.leftbox{
+    position: fixed;
+    height: 100%;
+    top:80px;
+    left:0;
+    z-index: 1;
+    width: 300px;
+   
+}
+ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.cityname{
+    border: 1px solid #000;
+    text-align: center;
+   background-color: #f4f4f4;
+    width: 60px;
+    margin-left: 10px;
+    line-height: 40px;
+    box-shadow: 0 0 3px 0px #000;
+}
+.cityins{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightbox{
+    width: 30px;
+    position: fixed;
+    height: 100%;
+    top:80px;
+    right:0;
+    z-index: 1;
+    background-color: red;
+}

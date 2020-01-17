@@ -1,0 +1,36 @@
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .chat_cont{
+        border-radius: 20px;
+        height: 300px;
+        width: 300px;
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #1296db;
+        img{
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+        }
+        p{
+            text-align: center;
+        }
+        .chatbtn{
+            border-radius: 10px;
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            color:#000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:0 auto
+        }
+    }
+}

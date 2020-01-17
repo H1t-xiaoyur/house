@@ -1,0 +1,93 @@
+.main_cont{
+
+    .search_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        height: 50px;
+        background-color: #1296db;
+
+        .search_center{
+            width: 65%;
+            background-color: #fff;
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 25px;
+                height: 25px;
+                margin-left: 8px;
+                margin-right: 10px;
+            }
+            label{
+                color: #B2B2B2;
+                font-size: 12px;
+            }
+        }
+
+        label{
+            color: #fff;
+            font-size: 16px;
+        }
+
+        img{
+            height: 35px;
+        }
+    }
+    .title_house{
+        display: flex;
+        align-items: center;
+        h3{
+            color:#1296db;
+            margin-left: 10px;
+        }
+        p{
+            color:#B2B2B2;
+            margin-left: 10px;
+        }
+    
+    } 
+    .introduce{
+        height: 10px;
+        background-color: #eee;;
+    }
+}
+.like{
+    margin-left: 10px;
+    color: #1296db;
+}
+.houselist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    .left{
+        display: flex;
+        align-items: center;
+        img{
+            width: 80px;
+            height:80px ;
+        }
+        div{
+            
+            margin-left: 10px;
+            h3{
+                margin: 0;
+                padding-bottom: 5px;
+                color: #000;
+            }
+            p{
+                color: #B2B2B2;
+                margin: 0;
+                padding: 5px 0;
+            }
+        }
+    }
+    .right{
+        color: red;
+        font-weight: bold;
+        margin: 30px 10px 0 0;
+    }
+}
